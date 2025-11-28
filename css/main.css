@@ -13,3 +13,23 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     }
+
+/* HEADER SECTION */
+
+#main-header {
+    background-color: black;
+    padding: 10px;
+    }
+
+#main-header h1 {
+    text-align: center;
+    padding: 10px;
+    }
+
+    /* MAIN SECTION */
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
