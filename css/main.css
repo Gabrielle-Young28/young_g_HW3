@@ -97,3 +97,30 @@ ul li {
      background-color: rgba(33, 116, 37, 0.5);
      }
     
+      /* INFO SECTION */
+    
+#info-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid;
+    background-color: rgb(131, 131, 131);
+    border-color: transparent;
+    }
+
+#info-section h2 {
+    font-size: 30px;
+    }
+
+ #info-section p {
+    font-size: 20px;
+    }
+
+ /* FOOTER SECTION */
+
+#main-footer {
+    text-align: center;
+    background-color: rgb(18, 18, 67);
+    padding: 10px;
+    margin-top: 230px;
+   } 
