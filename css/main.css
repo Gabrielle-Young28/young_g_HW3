@@ -10,19 +10,20 @@
     background-size: cover;
     background-color: purple;
     font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     }
 
 /* HEADER SECTION */
 
 #main-header {
-    background-color: black;
+    background-color: rgb(18, 18, 67);
     padding: 10px;
     }
 
 #main-header h1 {
     text-align: center;
+    text-transform: uppercase;
     padding: 10px;
     }
 
@@ -33,3 +34,66 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     }
+
+    /* ANIME BOXES AND TEXT */
+article {
+    width: 400px;
+     border: 6px solid;
+     border-radius: 10px;
+    background-color: rgba(147, 140, 140, 0.7);
+    margin: 40px 12px;
+        
+    }
+    
+article > h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 0 0 0;
+     }
+    
+article:first-of-type {
+    border-color: darkblue;
+    }
+    
+#inprogress {
+    border-color: darkred;
+    }
+    
+#finished {
+    border-color: darkolivegreen;
+    }
+    
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    }
+    
+ul li {
+    padding: 6px 8px;
+    text-transform: uppercase;
+     }
+
+.towatch li:nth-child(odd) {
+    background-color: rgba(0, 34, 255, 0.5);
+     }
+    
+.towatch li:nth-child(even) {
+    background-color: rgba(83, 100, 211, 0.5);
+     }
+    
+.inprogress li:nth-child(odd){
+    background-color: rgba(255,0,0,0.5);
+     }
+    
+.inprogress li:nth-child(even){
+    background-color: rgba(126, 48, 48, 0.5);
+     }
+    
+.finished li:nth-child(odd) {
+    background-color: rgba(100, 173, 100, 0.5);
+     }
+        
+.finished li:nth-child(even) {
+     background-color: rgba(33, 116, 37, 0.5);
+     }
+    
