@@ -1,0 +1,162 @@
+.hidden {
+    display: none;
+    }
+
+ /* BODY SECTION */
+
+ body {
+    background-image: url(../images/anime_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: purple;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    }
+
+/* HEADER SECTION */
+
+#main-header {
+    background-color: rgb(18, 18, 67);
+    padding: 10px;
+    }
+
+#main-header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    }
+
+    /* MAIN SECTION */
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+    /* ANIME BOXES AND TEXT */
+article {
+    width: 400px;
+     border: 6px solid;
+     border-radius: 10px;
+    background-color: rgba(147, 140, 140, 0.7);
+    margin: 40px 12px;
+        
+    }
+    
+article > h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 0 0 0;
+     }
+    
+article:first-of-type {
+    border-color: darkblue;
+    }
+    
+#inprogress {
+    border-color: darkred;
+    }
+    
+#finished {
+    border-color: darkolivegreen;
+    }
+    
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    }
+    
+ul li {
+    padding: 6px 8px;
+    text-transform: uppercase;
+     }
+
+.towatch li:nth-child(odd) {
+    background-color: rgba(0, 34, 255, 0.5);
+     }
+    
+.towatch li:nth-child(even) {
+    background-color: rgba(83, 100, 211, 0.5);
+     }
+    
+.inprogress li:nth-child(odd){
+    background-color: rgba(255,0,0,0.5);
+     }
+    
+.inprogress li:nth-child(even){
+    background-color: rgba(126, 48, 48, 0.5);
+     }
+    
+.finished li:nth-child(odd) {
+    background-color: rgba(100, 173, 100, 0.5);
+     }
+        
+.finished li:nth-child(even) {
+     background-color: rgba(33, 116, 37, 0.5);
+     }
+    
+      /* INFO SECTION */
+    
+#info-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid;
+    background-color: rgb(131, 131, 131, 0.9);
+    border-color: transparent;
+    }
+
+#info-section h2 {
+    font-size: 30px;
+    }
+
+ #info-section p {
+    font-size: 20px;
+    }
+
+    /* FOOTER SECTION */
+
+#main-footer {
+    text-align: center;
+    background-color: rgb(18, 18, 67);
+    padding: 10px;
+    margin-top: 230px;
+   } 
+
+
+    /* CHECKBOXES */
+         
+.towatch input[type="checkbox"]:checked + span::after {
+     content: "📺"; 
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+    }
+    
+.towatch input[type="checkbox"]:checked + span {
+    color: rgba(66, 202, 233, 0.5);
+    }
+    
+.inprogress input[type="checkbox"]:checked + span::after {
+    content: "👏🏻"; 
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+    }
+    
+.inprogress input[type="checkbox"]:checked + span {
+    color: rgba(218, 90, 111, 0.986);
+    }
+    
+.finished input[type="checkbox"]:checked + span::after {
+    content: "🎉"; 
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+    }
+    
+.finished input[type="checkbox"]:checked + span {
+    color: rgba(119, 217, 151, 0.5);
+    }
