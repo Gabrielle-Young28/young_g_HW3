@@ -27,6 +27,11 @@
     padding: 10px;
     }
 
+.decorated-heading::after, .decorated-heading::before {
+        content: "🌸";
+        padding: 15px;
+    }
+
     /* MAIN SECTION */
 
 main {
@@ -80,6 +85,11 @@ ul li {
 .towatch li:nth-child(even) {
     background-color: rgba(83, 100, 211, 0.5);
      }
+
+.watch-heading::after {
+    content: "📺";
+    padding: 10px;
+}
     
 .inprogress li:nth-child(odd){
     background-color: rgba(255,0,0,0.5);
@@ -88,6 +98,11 @@ ul li {
 .inprogress li:nth-child(even){
     background-color: rgba(126, 48, 48, 0.5);
      }
+
+.progress-heading::after {
+    content: "👏🏻";
+    padding: 10px;
+    }
     
 .finished li:nth-child(odd) {
     background-color: rgba(100, 173, 100, 0.5);
@@ -96,6 +111,11 @@ ul li {
 .finished li:nth-child(even) {
      background-color: rgba(33, 116, 37, 0.5);
      }
+
+.finish-heading::after {
+    content: "🎉";
+    padding: 10px;
+    }     
     
       /* INFO SECTION */
     
